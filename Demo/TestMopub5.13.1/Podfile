@@ -1,0 +1,35 @@
+
+platform :ios, '10.0'
+
+ target 'TestMopub' do
+ 
+ source 'https://github.com/CocoaPods/Specs.git'
+ 
+ # MoPub
+pod 'mopub-ios-sdk/Core', '5.13.1'
+ 
+ # AdColony
+pod 'MoPub-AdColony-Adapters', '4.3.0.2'
+ 
+ # AppLovin
+pod 'MoPub-Applovin-Adapters', '6.13.4.0'
+ 
+ # Chartboost
+pod 'MoPub-Chartboost-Adapters', '8.2.0.3'
+ 
+ # ironSource
+pod 'MoPub-IronSource-Adapters', '6.18.0.2.0'
+ 
+ # Unity Ads
+pod 'MoPub-UnityAds-Adapters', '3.4.8.0'
+ 
+ # Vungle
+pod 'MoPub-Vungle-Adapters', '6.7.1.0'
+ 
+ # Facebook Audience Network
+pod 'MoPub-FacebookAudienceNetwork-Adapters', '5.10.1.1'
+ 
+ # Google (AdMob & Ad Manager)
+pod 'MoPub-AdMob-Adapters', '7.64.0.0'
+ 
+ end
